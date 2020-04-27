@@ -4,6 +4,7 @@ if (!defined('IN_IA')) {
 }
 
 require EWEI_SHOPV2_PLUGIN . 'app/core/page_mobile.php';
+
 class Account_EweiShopV2Page extends AppMobilePage
 {
 	protected $key = '';
@@ -26,6 +27,7 @@ class Account_EweiShopV2Page extends AppMobilePage
 
 	public function login()
 	{
+
 		global $_W;
 		global $_GPC;
 		$mobile = trim($_GPC['mobile']);
